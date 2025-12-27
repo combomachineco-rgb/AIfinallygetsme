@@ -1,0 +1,243 @@
+# FinallyGetsMe.com Landing Page Rules
+
+## PROJECT OVERVIEW
+
+You are helping build a single-page landing page for FinallyGetsMe.com - a product that generates personalized AI prompts for people frustrated with generic AI responses.
+
+**Target Audience:** Women (25-45) who find AI too generic, condescending, and unhelpful
+**Brand Voice:** Direct, warm, no-BS, empowering (NOT corporate tech-bro)
+**Tech Stack:** HTML5 UP "Landed" template (HTML, CSS, JavaScript)
+**Goal:** Transform the template into our landing page by replacing text content only
+
+---
+
+## CRITICAL CONSTRAINTS - READ FIRST
+
+### DO NOT CHANGE:
+- ❌ HTML structure or tag hierarchy
+- ❌ CSS styling, colors, fonts, layouts
+- ❌ JavaScript functionality
+- ❌ Image file paths or folder structure
+- ❌ Responsive design breakpoints
+- ❌ Template's built-in navigation
+- ❌ Any file names or folder organization
+
+### ONLY CHANGE:
+- ✅ Text content inside HTML tags
+- ✅ Heading text (h1, h2, h3, etc.)
+- ✅ Paragraph content
+- ✅ Button text
+- ✅ List items
+- ✅ Link text (keep href intact)
+
+---
+
+## HOW TO WORK
+
+1. **Work Section by Section:** Update one section at a time, then STOP and ask for approval
+2. **Use @ References:** Always reference files with @filename when making changes
+3. **Show Changes:** After each update, show what you changed
+4. **Wait for Approval:** Do NOT continue to next section without explicit approval
+5. **Be Precise:** Replace text exactly as provided in prompts
+6. **Don't Improvise:** If copy isn't provided, ask for it - don't make it up
+7. **One Task Per Prompt:** Focus on the specific section requested
+
+---
+
+## RESPONSE STYLE
+
+- Be direct and terse - no "Here's how you can..." preambles
+- Give actual code changes, not explanations of what to do
+- If something is unclear, ask a specific question
+- Don't apologize - just fix issues if they arise
+- Show file diffs clearly (what changed)
+- Treat me as capable - no condescension
+
+---
+
+## PROJECT STRUCTURE
+
+```
+html5up-landed/
+├── index.html          (Main file - this is what we're updating)
+├── assets/
+│   ├── css/           (DO NOT MODIFY)
+│   └── js/            (DO NOT MODIFY)
+├── images/            (Will be replaced with our images later)
+└── .cursorrules       (This file)
+```
+
+---
+
+## CONTENT SECTIONS TO UPDATE
+
+The landing page has 11 sections that need text updates:
+
+### Section 1: Hero
+- Main headline
+- Subheadline
+- CTA buttons
+- Trust badges
+
+### Section 2: Problem (Pain Points)
+- 3-column problem statements
+- Transition text
+
+### Section 3: Solution (How It Works)
+- Intro paragraph
+- 3-step process descriptions
+- Feature lists
+
+### Section 4: Stats (Research-Backed)
+- 3 statistics with explanations
+- Source attribution
+
+### Section 5: Usage Instructions
+- 3-step usage guide
+- Technical requirements
+- What's included/not included
+
+### Section 6: Proof (Before/After)
+- 2 example scenarios
+- Before/after comparisons
+- Problem/benefit lists
+
+### Section 7: Scarcity
+- Launch pricing message
+- Urgency language
+
+### Section 8: Demo Video
+- Placeholder text
+- Coming soon message
+
+### Section 9: FAQ
+- 9 questions with detailed answers
+- Research citations with links
+
+### Section 10: About Us
+- Founder story (placeholder - will be provided later)
+
+### Section 11: Final CTA
+- Closing copy
+- Feature checklist
+- Pricing display
+- Risk reversal
+- CTA button
+
+### Footer
+- Brand tagline
+- Navigation links
+- Legal links
+- Contact info
+
+---
+
+## SPECIFIC INSTRUCTIONS
+
+### When Updating Text:
+- Keep all existing HTML tags (`<h1>`, `<p>`, `<a>`, etc.)
+- Preserve all class names and IDs
+- Maintain link structures (only change link text, not href)
+- Keep button elements intact (only change button text)
+- Don't add new HTML elements unless specifically instructed
+
+### When Adding Images (Later):
+- Only update `src` attributes
+- Keep all image `alt` attributes
+- Maintain image wrapper structures
+- Don't change image dimensions or classes
+
+### For Lists:
+- Keep `<ul>` or `<ol>` structures
+- Only update `<li>` text content
+- Maintain any icons or checkmarks
+
+### For Links:
+- Update link text only
+- Keep `href` attributes unless specifically told to change
+- Preserve `target` and other attributes
+
+---
+
+## EXAMPLE WORKFLOW
+
+**CORRECT:**
+```
+Prompt: "Update the hero headline in @index.html Section 1 with: 'AI That Actually Talks Like You'"
+
+Response: 
+Updated @index.html line 42:
+- <h1>The future has landed</h1>
++ <h1>AI That Actually Talks Like You</h1>
+
+Section 1 hero headline updated. Ready for next change?
+```
+
+**INCORRECT:**
+```
+Response: "I can help you update the hero section! Here's how we can approach this. First, we should..."
+(Don't do this - just make the change)
+```
+
+---
+
+## BRAND GUIDELINES
+
+### Tone:
+- Direct and honest (no corporate speak)
+- Warm but not overly enthusiastic
+- Respectful of intelligence (no condescension)
+- Problem-focused first, then solution-oriented
+
+### Language:
+- Use "you" and "your" (direct address)
+- Short sentences when possible
+- No jargon or buzzwords
+- Conversational but professional
+
+### What to Avoid:
+- Fake enthusiasm ("Amazing!", "Incredible!")
+- Corporate buzzwords ("leverage", "synergy", "paradigm")
+- Condescending language ("Don't worry", "Simply")
+- Overpromising or hype
+
+---
+
+## QUALITY CHECKS
+
+Before showing any changes, verify:
+1. ✓ Only text content was changed
+2. ✓ HTML structure is intact
+3. ✓ No CSS was modified
+4. ✓ All tags are properly closed
+5. ✓ File references use @ symbol
+6. ✓ Changes match the provided copy exactly
+
+---
+
+## WHEN IN DOUBT
+
+- Ask specific questions
+- Show me what you're uncertain about
+- Don't make assumptions about intent
+- Propose options if multiple approaches possible
+
+---
+
+## MODEL PREFERENCES
+
+- Use Claude Sonnet (or best available model) for all changes
+- Prioritize accuracy over speed
+- Double-check text replacements for typos
+
+---
+
+## REMEMBER
+
+This is a content update project, not a redesign. The template structure, styling, and functionality should remain completely untouched. We're just swapping the placeholder text with our actual copy.
+
+If I ask you to do something that violates these rules, remind me of the constraints and suggest an alternative approach.
+
+---
+
+END OF RULES
