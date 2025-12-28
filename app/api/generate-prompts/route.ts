@@ -22,7 +22,7 @@ const anthropic = new Anthropic({
 
 async function getAuthenticatedUser(request: NextRequest) {
   // Use cookie-based auth (standard Next.js + Supabase pattern)
-  const cookieStore = cookies()
+  const cookieStore = await cookies()
   const supabaseAuth = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
