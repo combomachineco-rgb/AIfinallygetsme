@@ -35,43 +35,61 @@ export default function HomePage() {
           <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2em', marginBottom: '2em'}}>
             <div>
               <h3 style={{color: '#e44c65'}}>Step 1: Tell Us About You</h3>
-              <p>Answer 30 questions. Takes 8 minutes.</p>
+              <p>Answer 30 questions about your preferences, style, and needs. Takes 8 minutes.</p>
             </div>
             <div>
               <h3 style={{color: '#e44c65'}}>Step 2: Pick Your Experts</h3>
-              <p>Choose 5-10 personas customized to your needs.</p>
+              <p>Choose 5-10 personas: Email Writer, Decision Coach, Financial Advisor, and more.</p>
             </div>
             <div>
               <h3 style={{color: '#e44c65'}}>Step 3: Get Custom Prompts</h3>
-              <p>Copy and paste into any AI tool. Works forever.</p>
+              <p>Saved in your account. Copy-paste ready. Use forever.</p>
             </div>
           </div>
         </div>
 
-        {/* CTA */}
-        <div style={{textAlign: 'center', marginBottom: '3em'}}>
-          <Link 
-            href="/signup" 
-            style={{
-              display: 'inline-block',
-              padding: '1em 3em',
-              background: '#e44c65',
-              color: '#ffffff',
-              textDecoration: 'none',
-              borderRadius: '8px',
-              fontSize: '1.5em',
-              fontWeight: 'bold',
-              marginBottom: '1em'
-            }}
-          >
+        {/* Pricing */}
+        <div style={{textAlign: 'center', marginBottom: '3em', padding: '3em 2em', background: 'rgba(228, 76, 101, 0.2)', borderRadius: '8px', border: '2px solid #e44c65'}}>
+          <h2 style={{fontSize: '2.5em', marginBottom: '0.5em'}}>⚡ Launch Pricing: $20</h2>
+          <p style={{fontSize: '1.2em', marginBottom: '1em'}}>Regular price will be $49 after launch period.</p>
+          <p style={{fontSize: '1.2em', marginBottom: '2em', fontWeight: 'bold'}}>Lock in $20 now. Once you buy, that's your price forever.</p>
+          
+          <Link href="/signup" style={{
+            background: '#e44c65',
+            color: 'white',
+            padding: '1.2em 3em',
+            textDecoration: 'none',
+            borderRadius: '6px',
+            display: 'inline-block',
+            fontSize: '1.5em',
+            fontWeight: 'bold',
+            boxShadow: '0 4px 12px rgba(228, 76, 101, 0.4)'
+          }}>
             Get Your Custom AI - $20
           </Link>
-          <p style={{color: '#999', marginTop: '1em'}}>One-time payment • 7-day money-back guarantee</p>
+          
+          <p style={{marginTop: '1em', color: '#ccc'}}>Works with ChatGPT, Claude, Gemini & any AI tool</p>
+          <p style={{marginTop: '0.5em', color: '#ccc'}}>✓ One-time payment • ✓ 7-day money-back guarantee • ✓ Ready in 10 minutes</p>
         </div>
 
-        {/* Login Link */}
-        <div style={{textAlign: 'center', marginTop: '3em'}}>
-          <Link href="/login" style={{color: '#999', textDecoration: 'underline'}}>Log In</Link>
+        {/* Benefits */}
+        <div style={{marginBottom: '3em'}}>
+          <h2 style={{fontSize: '2em', marginBottom: '1em', textAlign: 'center'}}>What's Included</h2>
+          <ul style={{fontSize: '1.2em', lineHeight: '2'}}>
+            <li>✅ Detailed base profile with your preferences</li>
+            <li>✅ 5-10 expert personas you choose</li>
+            <li>✅ Works with ChatGPT, Claude, Gemini, any AI</li>
+            <li>✅ Lifetime account access</li>
+            <li>✅ Copy-paste ready, use immediately</li>
+            <li>✅ 7-day money-back guarantee</li>
+          </ul>
+        </div>
+
+        {/* Footer */}
+        <div style={{textAlign: 'center', padding: '2em', borderTop: '1px solid rgba(255,255,255,0.1)'}}>
+          <p style={{marginBottom: '0.5em'}}>FinallyGetsMe</p>
+          <p style={{color: '#999', fontStyle: 'italic'}}>AI that actually talks like you</p>
+          <p style={{marginTop: '1em'}}><a href="mailto:hello@finallygetsme.com" style={{color: '#e44c65'}}>hello@finallygetsme.com</a></p>
         </div>
 
       </div>
